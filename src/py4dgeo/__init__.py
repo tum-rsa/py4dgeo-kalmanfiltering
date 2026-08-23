@@ -21,6 +21,9 @@ from py4dgeo.segmentation import (
     regular_corepoint_grid,
     temporal_averaging,
 )
+from py4dgeo.m3c2_kalman import (
+    KalmanRegionGrowingAlgorithm,
+)
 from py4dgeo.util import (
     __version__,
     find_file,
